@@ -1,0 +1,25 @@
+MOVA WEBAPP (PWA) – gratis iPhone-versjon
+
+Dette er en NY webapp basert på Mova-innholdet. Den publiseres ikke automatisk.
+
+INSTALLASJON / GRATIS HOSTING:
+1. Pakk ut hele mappen.
+2. Opprett et gratis GitHub-repository og last opp FILENE (index.html, app.js, style.css, data.js, manifest.webmanifest, sw.js og icon-filene) i rotmappen.
+3. Gå til Settings > Pages > Build and deployment > Deploy from a branch > main > /root > Save.
+4. Åpne HTTPS-adressen GitHub Pages oppgir på iPhonen i Safari.
+5. Trykk Del > Legg til på Hjem-skjermen. (På enkelte iOS-versjoner: Del > Mer > Legg til på Hjem-skjermen.)
+6. Åpne Mova-ikonet fra hjemskjermen.
+
+VIKTIG:
+- Dette er ikke en automatisk konvertering av appdata fra SwiftUI. Eksisterende registreringer fra iOS-appen følger IKKE med.
+- Bruk knappen øverst til høyre for å eksportere treningsdata som JSON. Oppbevar sikkerhetskopien trygt.
+- Lokale data kan forsvinne ved tømming av nettsteddata og synkroniseres ikke automatisk til andre enheter.
+- Ekte Pexels-fotografier krever nett. Andre skjermer kan brukes offline etter første innlasting.
+- Ikke publiser private data sammen med nettsidefilene; data lagres lokalt på telefonen.
+- Arbeidsgiverstyrt iPhone kan fortsatt blokkere nettapper, nettsteder eller Legg til på Hjem-skjermen.
+
+NYTT I DENNE VERSJONEN:
+- Styrke > Mine egne øvelser > + Legg til egen øvelse. Skriv inn et fritt øvelsesnavn.
+- Angi sett, repetisjoner og valgfri vekt. Felt lagres automatisk lokalt.
+- Egne øvelser kan slettes. Ta sikkerhetskopi via knappen øverst før du bytter telefon.
+- Ved oppdatering av en allerede publisert webapp: last opp/erstatt alle filene. Ikke slett nettsteddata.
